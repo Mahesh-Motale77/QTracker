@@ -1,0 +1,24 @@
+
+
+.web-main-section{
+    position: relative;
+    top: 100px;
+    z-index: -4;
+}
+
+
+.web-table{
+    /* border: 2px solid black;  */
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 30px;
+    /* background-color: #d3935b; */
+    box-shadow: 0px 0px 20px #d3935b;
+}
+
+thead{
+    background-color: #f1d5bb;
+}
+

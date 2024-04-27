@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right, #f2e4d8, #e3781b);
+    z-index: 10;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: arial black;
+}
+
+.q{
+    color: orange;
+    font-size: 40px;
+}
+
+.nav-link{
+    font-size: 20px;
+    margin-left: 10px;
+    color: black !important;
+    font-weight: bolder;
+}
+
+.navigation-bar .dropdown-menu{
+    /* background-color: #e4924b; */
+    background-color: #f0c198;
+    border-radius: 20px;
+}
+
+.navigation-bar .dropdown-item:hover{
+    background-color: #fcfcfc;
+    border-radius: 20px;
+}
+
+.about-qspiders{
+    position: relative;
+    top: 100px;
+    z-index: -4;
+}
+
+.heading{
+    color: orange;
+    margin-top: 40px;
+    font-family: arial black;
+    font-size: 40px;
+  
+}
+
+.info{      
+    font-size: 24px;
+    /* padding: 50px; */
+    font-weight: bolder;
+}
+
+.carousel-placement{
+
+    margin-top: 10rem;
+    width: 95%;
+    height: 50%;
+    /* border: 2px solid blue;  */
+    border-radius: 20px;
+    padding: 2rem 40px;
+    margin-right: 4rem ;
+    margin-left: 4rem;
+    box-shadow: 0px 0px 20px #d3935b;
+    background-color: #f2e4d8;
+
+}
+
+.image-carousel{
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.placed-img{
+    width: 30em;
+    height: 25rem;
+    border-radius: 20px;
+}
+
+.placed-count{
+    background-color: rgb(232, 202, 145);
+    font-weight: bold;
+    color: gray;
+    padding: 2px ;
+    margin: 5px;
+}
+
+.student-count{
+    font-size: 20px;
+    color: rgb(111, 111, 226);
+}
+
+.individual-marquee{
+    text-align: left;
+}
